@@ -1,5 +1,3 @@
-import { MessageCircle } from "lucide-react";
-
 export default function Header() {
   return (
     <header className="bg-white/70 backdrop-blur-md border-b border-blue-100 sticky top-0 z-50">
@@ -16,7 +14,11 @@ export default function Header() {
               rel="noopener noreferrer"
               className="hover:opacity-80 transition"
             >
-              <MessageCircle size={24} className="text-sky-500" />
+              <img
+                src="/telegram.svg"
+                alt="Telegram"
+                className="w-6 h-6"
+              />
             </a>
           </div>
 
