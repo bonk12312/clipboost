@@ -9,7 +9,7 @@ export default function Header() {
             <h1 className="text-xl font-bold text-gray-900">ClipBoost</h1>
 
             <a
-              href="https://t.me/YOUR_TELEGRAM_LINK"
+              href="https://t.me/clipboostsol"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition"
